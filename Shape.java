@@ -16,3 +16,12 @@ abstract class Shape{
         this.dim_three = dim_three;
         this.num_of_sides = num_of_sides;
     }
+
+    abstract double calculateArea();    //Abstract method to calculte the area
+    abstract double calculatePerimeter(); //Abstract method to calculate the perimeter
+    abstract double calculateVolume(); //Abstract method to calculate the volume
+
+    public int getNumSides(){
+        return num_of_sides;
+    }
+}
